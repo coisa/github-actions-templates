@@ -1,6 +1,7 @@
 name: npm lint
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**.js'
