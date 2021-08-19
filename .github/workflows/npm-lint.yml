@@ -16,5 +16,5 @@ jobs:
           node-version: 8.9
       - run: npm install
       - run: npm run lint
-      - env:
+        env:
           NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
