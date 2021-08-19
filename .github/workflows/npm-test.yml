@@ -1,0 +1,18 @@
+name: NPM Run Test Suite
+
+on:
+  push:
+    paths:
+      - '**.js'
+      - 'package*.json'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 8.9
+      - run: npm ci
+      - run: npm test

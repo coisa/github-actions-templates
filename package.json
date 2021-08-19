@@ -1,0 +1,26 @@
+{
+  "name": "github-actions-templates",
+  "version": "1.0.0",
+  "description": "GitHub Actions Examples",
+  "main": "index.js",
+  "engines": {
+    "node": "~8.9"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coisa/github-actions-templates.git"
+  },
+  "author": "Felipe Abreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coisa/github-actions-templates/issues"
+  },
+  "homepage": "https://github.com/coisa/github-actions-templates#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^3.0.2"
+  }
+}
