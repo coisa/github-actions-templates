@@ -1,5 +1,5 @@
 {
-  "name": "github-actions-templates",
+  "name": "@coisa/github-actions-templates",
   "version": "1.0.0",
   "description": "GitHub Actions Examples",
   "main": "index.js",
