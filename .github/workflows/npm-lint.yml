@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: 8.9
       - run: npm install
-      - run: npm lint
+      - run: npm run lint
