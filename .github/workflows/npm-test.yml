@@ -1,4 +1,4 @@
-name: NPM Run Test Suite
+name: npm test
 
 on:
   push:
