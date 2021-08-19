@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "comma-dangle": 0,
+    "prefer-arrow-callback": 0,
+    "func-names": 0,
+    "newline-before-return": 2,
+    "no-param-reassign": "off"
+  }
+}

@@ -1,7 +1,8 @@
-const assert = require('chai').assert
+const chai = require('chai');
+const mocha = require('mocha');
 
-describe('Dummy test', function () {
-    it('Always true', function () {
-        assert(true)
-    })
-})
+mocha.describe('Dummy test', function () {
+  mocha.it('Always true', function () {
+    chai.assert(true);
+  });
+});
