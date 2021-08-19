@@ -9,6 +9,8 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -16,5 +18,3 @@ jobs:
           node-version: 8.9
       - run: npm install
       - run: npm run lint
-        env:
-          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
